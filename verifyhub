@@ -234,6 +234,14 @@ local Section2 = Tab2:AddSection({
 })
 
 Tab2:AddButton({
+	Name = "Monday Morning Misery",
+	Callback = function()
+loadstring(game:HttpGet("https://stavratum.github.io/" .. game.PlaceId))()
+      		print("Active!")
+  	end    
+})
+
+Tab2:AddButton({
 	Name = "Blox Fruit (Doraemon)",
 	Callback = function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/onepicesenpai/onepicesenpai/main/onichanokaka'))()
